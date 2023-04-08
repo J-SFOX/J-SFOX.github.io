@@ -8,6 +8,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { StoreComponent } from './pages/store/store.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TypingAnimatorModule } from 'angular-typing-animator';
+// import { FontAwrsomeModule } from '@fortawesome/angular';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,11 @@ import { StoreComponent } from './pages/store/store.component';
     HomeComponent,
     BlogsComponent,
     AdminComponent,
-    StoreComponent
+    StoreComponent,
+    HeaderComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, TypingAnimatorModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
