@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 declare var anime: any;
 @Component({
   selector: 'app-header',
