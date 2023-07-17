@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rubik";
+}
+
+nav span a {
+}
+nav span a.active {
+  font-weight: bolder;
+  font-size: large;
+  color: #ff4b60;
+}
