@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'blogs', component: BlogsComponent },
   { path: 'store', component: StoreComponent },
   { path: 'admin', component: AdminComponent },
-  { path: 'admin', component: AdminComponent },
+  { path: 'review', component: AdminComponent },
   { path: 'about', component: AboutComponent },
   { path: 'project', component: ProjectComponent },
   { path: 'contact-me', component: ContactComponent },
